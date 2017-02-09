@@ -1,0 +1,44 @@
+//META{"name":"Blue","description":"A chilly, blue theme with customizable colors & background!","version":"5"}*//{}
+/* "Kaneki" by @DarkKaneki */
+/* Code from "ClearVision - Sapphire v5" by @Zerthox */
+/* Based on "Discord Reborn v4.30" by @Omniscient & "DarkMatter" by @Hammock */
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://gitcdn.xyz/repo/DarkKaneki/DiscordTheme/master/css/MyVersion.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+	--main-color: #328dc9;
+	--hover-color: #2825db;
+    --background-blur: 1px;
+    --background-brightness: 100%;
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label{
+    background-image: url(https://github.com/DarkKaneki/DiscordTheme/raw/master/images/_t_o_k_y_o___g_h_o_u_l____kaneki_wallpaper_by_kilareth-d8d4cfy.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
